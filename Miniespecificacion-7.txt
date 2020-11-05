@@ -1,0 +1,52 @@
+Algoritmo-7
+Se debe generar un algoritmo que permite calcular y mostrar el valor total 
+a pagar mensual de servicios digitales de una persona. Los servicios digitales son: 
+netflix, youtube premium, dropbox, spotify. Si la persona es menor a 30 años se descuenta 
+el 20% del total mensual.
+
+Algoritmo:
+1.Inicio.
+2.Ingresar la edad.
+3.Ingresar el valor a pagar de netflix.
+4.Ingresar el valor a pagar de youtube premium.
+5.Ingresar el valor a pagar de dropbox.
+6.Ingresar el valor a pagar de spotify.
+7.Se suman todos los valores obtenidos.
+8.6.Si es menor de los 30 años calcular el 20%. 
+9.Se resta el 20% al valor obtenido en la suma.
+10.Se muestra el resultado en pantalla.
+11.Fin.
+
+
+Miniespecificacion o Pseudocódigo:
+1. Inicio
+// declaro las variables
+2. valor a pagar de netflix, d[0, n]
+3. valor a pagar de youtube premium, d[0, n]
+4. valor pagar de dropbox, d[0, n]
+5. valor pagar de spotify, d[0, n]
+6. suma, d[0, n]
+7. descuento, d[0.20]
+8. resta, d[0, n]
+9. veinteporciento, d[0, n]
+
+// pido datos por teclado - entradas
+10. Escribir "Ingrese valor a pagar de netflix"
+11. Leer valor a pagar de netflix
+12. Escribir "valor a pagar de youtube premium"
+13. Leer valor a pagar de youtube premium
+14. Escribir "valor pagar de dropbox"
+15. Leer valor pagar de dropbox
+16. Escribir "valor pagar de spotify"
+17. Leer valor pagar de spotify
+
+// proceso
+18. suma <-- valor a pagar de netflix + valor a pagar de youtube premium + valor pagar de dropbox 
+           + valor pagar de spotify
+19. resta <-- suma * descuento
+20. veinteporciento <-- suma - resta
+
+// salida
+21. Escribir "el valor total a pagar mensual de servicios digitales es:" + veinteporciento
+
+22. Fin

@@ -1,0 +1,40 @@
+Algoritmo-5
+Generar un solución que permita calcular y mostrar el pago mensual de 
+un préstamo de 1 año de plazo. Se debe ingresar el monto del préstamo y
+el interés mensual a cobrar.
+
+Algoritmo:
+1.Inicio.
+2.Ingresar el valor total del prestamo.
+3.Se divide el valor del prestamo por doce.
+4.Ingresar el valor del interés mensual.
+5.Se suma el valor del interes con el de la division del prestamo.
+6.Se muestra la cantidad de la suma.
+7.Fin.
+
+
+Miniespecificacion o Pseudocódigo:
+1. Inicio
+// declaro las variables
+2. valor del prestamo, d[0, n]
+3. valor del interes, d[0, n]
+4. multiplicacion, d[0, n]
+5. suma, d[0, n]
+6. timepo del prestamo, d[0, n]
+
+// pido datos por teclado - entradas
+7. Escribir "Ingrese el valor del prestamo"
+8. Leer prestamo
+9. Escribir "Ingrese el valor del interes"
+10. Leer interes
+11. Escribir "Ingrese el tiempo del prestamo"
+12. Leer tiempo del prestamo
+
+// proceso
+13. multiplicacion <-- valor del prestamo * tiempo del prestamo  
+14. suma <-- mult +  valor del interes
+
+// salida
+15. Escribir "el pago mensual de del préstamo es:" + suma 
+
+13. Fin
